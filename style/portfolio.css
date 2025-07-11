@@ -11,7 +11,7 @@ body{
 }
 
 header{
-  background-image: url('./images/Hero-bg.png');
+  background-image: url('../images/hero.png');
   background-repeat: no-repeat;
   padding: 40px 60px;
   text-align: center;
