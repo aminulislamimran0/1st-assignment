@@ -242,3 +242,67 @@ header{
   height: 32px;
   border-radius: 50%;
 }
+
+.focus-section {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 137px 149px 92px 151px;
+  border-radius: 20px;
+  max-width: 790px;
+  margin: 60px auto;
+}
+
+.focus-section h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin-bottom: 15px;
+}
+
+.focus-section p {
+  font-size: 16px;
+  color: #A8A8A8;
+  margin-bottom: 25px;
+}
+
+.preview-image img {
+  width: 840px; height: 364px;
+  max-width: 800px;
+  border-radius: 48px;
+}
+
+.container1 {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  display: flex;
+  background-color: #f7f9ff;
+  gap: 40px;
+}
+
+.left h1 {
+  font-size: 97px;
+  font-weight: 700;
+  width: 528px; height: 232px;
+
+}
+
+.right {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-info input,
+.form-info textarea {
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 16px;
+}
