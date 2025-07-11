@@ -6,3 +6,53 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+body{
+    background-color: #F5F8FF;
+    max-width: 1440px;
+}
+
+header{
+  background-image: url('/images/Hero-bg.png');
+  background-repeat: no-repeat;
+  padding: 40px 60px;
+  text-align: center;
+  width: 1440px; height: 692px;
+  gap: 158px;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    color: #4E47FF;
+    font-size: 34px;
+    width: 132px; height: 48px;
+    padding: 12px 36px;
+    gap: 10px;
+    margin: 20px auto 20px;
+    margin-left: 150px;
+}
+
+/* button styles */
+.btn{
+    background-color: #4E47FF;
+    color: white;
+    gap: 10px;
+    border-radius: 10px;
+    width: 132px; height: 48px;
+    padding: 12px 36px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.second-btn{
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    width: 174px; height: 48px;
+    padding: 12px 36px;
+    font-size: 16px;
+    cursor: pointer;
+}
