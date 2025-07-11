@@ -56,3 +56,189 @@ header{
     font-size: 16px;
     cursor: pointer;
 }
+
+.third-btn{
+    background-color: #4E47FF;
+    color: white;
+    gap: 10px;
+    border-radius: 10px;
+    width: 229px; height: 48px;
+    padding: 12px 36px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.fourth-btn{
+    background-color: #4E47FF;
+    color: white;
+    gap: 10px;
+    border-radius: 10px;
+    width: 229px; height: 48px;
+    padding: 12px 36px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.fifth-btn{
+    background-color: #4E47FF;
+    color: white;
+    gap: 10px;
+    border-radius: 10px;
+    width: 430px; height: 62px;
+    padding: 12px 36px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+
+/* div styles */
+.second-p{
+    font-size: 65px;
+    font-weight: 700;
+    color: #252432;
+    text-align: center;
+    width: 905px; height: 152px;
+    
+    
+}
+.second{
+    width: 905px; height: 237px;
+    max-width: 905px;
+    padding: 10px 117px 85px 267px;
+
+}
+
+/* main style */
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px; height: 328px;
+    padding: 116px 159px 116px 141px;
+    max-width: 1140px;
+}
+
+.para-one{
+    font-size: 24px;
+    width: 517px; height: 60px;
+    color: #252432;
+}
+.one{
+    font-size: 42px;
+}
+
+.image{
+    width: 403px; height: 328px;
+    border-radius: 48px;
+    margin-left: 159px;
+}
+
+/* 3rd para */
+.second-main{
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 116px 159px 137px 159px;
+    width: 1140px; height: 306px;
+    
+}
+.three-container {
+  background-color: #eaefff;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 15px;
+  max-width: 1100px;
+  margin: 50px auto;
+}
+
+.three-container h2 {
+  color: #222;
+  font-size: 38px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.thirds {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.third h3 {
+  font-size: 80px;
+  color: #4a4aff;
+  margin: 0;
+  font-weight: 700;
+}
+
+.third p {
+  margin-top: 5px;
+  color: #666;
+  font-size: 20px;
+}
+
+
+.review-section {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.review-section h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1e1e1e;
+  margin-bottom: 40px;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.review-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.review-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.review-card p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer-info strong {
+  display: block;
+  font-size: 14px;
+  color: #222;
+}
+
+.reviewer-info span {
+  font-size: 12px;
+  color: #888;
+}
+
+/* Add Review image  */
+.reviewer img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
